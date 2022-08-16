@@ -14,6 +14,8 @@
 		3CB174E728AC21C00065EBCD /* TripHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB174E628AC21C00065EBCD /* TripHubTests.swift */; };
 		3CB174F128AC21C00065EBCD /* TripHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB174F028AC21C00065EBCD /* TripHubUITests.swift */; };
 		3CB174F328AC21C00065EBCD /* TripHubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB174F228AC21C00065EBCD /* TripHubUITestsLaunchTests.swift */; };
+		3CB1750228AC36330065EBCD /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1750128AC36330065EBCD /* CircleImage.swift */; };
+		3CB1750428AC3ED10065EBCD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1750328AC3ED10065EBCD /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		3CB174EC28AC21C00065EBCD /* TripHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB174F028AC21C00065EBCD /* TripHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHubUITests.swift; sourceTree = "<group>"; };
 		3CB174F228AC21C00065EBCD /* TripHubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CB1750128AC36330065EBCD /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		3CB1750328AC3ED10065EBCD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				3CB174D528AC21BE0065EBCD /* TripHubApp.swift */,
 				3CB174D728AC21BE0065EBCD /* ContentView.swift */,
+				3CB1750128AC36330065EBCD /* CircleImage.swift */,
+				3CB1750328AC3ED10065EBCD /* MapView.swift */,
 				3CB174D928AC21C00065EBCD /* Assets.xcassets */,
 				3CB174DB28AC21C00065EBCD /* Preview Content */,
 			);
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CB174D828AC21BE0065EBCD /* ContentView.swift in Sources */,
+				3CB1750428AC3ED10065EBCD /* MapView.swift in Sources */,
 				3CB174D628AC21BE0065EBCD /* TripHubApp.swift in Sources */,
+				3CB1750228AC36330065EBCD /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
