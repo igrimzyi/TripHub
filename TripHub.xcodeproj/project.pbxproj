@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CB174D628AC21BE0065EBCD /* TripHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB174D528AC21BE0065EBCD /* TripHubApp.swift */; };
+		3CB174D828AC21BE0065EBCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB174D728AC21BE0065EBCD /* ContentView.swift */; };
+		3CB174DA28AC21C00065EBCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB174D928AC21C00065EBCD /* Assets.xcassets */; };
+		3CB174DD28AC21C00065EBCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB174DC28AC21C00065EBCD /* Preview Assets.xcassets */; };
+		3CB174E728AC21C00065EBCD /* TripHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB174E628AC21C00065EBCD /* TripHubTests.swift */; };
+		3CB174F128AC21C00065EBCD /* TripHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB174F028AC21C00065EBCD /* TripHubUITests.swift */; };
+		3CB174F328AC21C00065EBCD /* TripHubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB174F228AC21C00065EBCD /* TripHubUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CB174E328AC21C00065EBCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CB174CA28AC21BE0065EBCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CB174D128AC21BE0065EBCD;
+			remoteInfo = TripHub;
+		};
+		3CB174ED28AC21C00065EBCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CB174CA28AC21BE0065EBCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CB174D128AC21BE0065EBCD;
+			remoteInfo = TripHub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CB174D228AC21BE0065EBCD /* TripHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB174D528AC21BE0065EBCD /* TripHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHubApp.swift; sourceTree = "<group>"; };
+		3CB174D728AC21BE0065EBCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CB174D928AC21C00065EBCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CB174DC28AC21C00065EBCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CB174E228AC21C00065EBCD /* TripHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB174E628AC21C00065EBCD /* TripHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHubTests.swift; sourceTree = "<group>"; };
+		3CB174EC28AC21C00065EBCD /* TripHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB174F028AC21C00065EBCD /* TripHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHubUITests.swift; sourceTree = "<group>"; };
+		3CB174F228AC21C00065EBCD /* TripHubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CB174CF28AC21BE0065EBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB174DF28AC21C00065EBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB174E928AC21C00065EBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CB174C928AC21BE0065EBCD = {
+			isa = PBXGroup;
+			children = (
+				3CB174D428AC21BE0065EBCD /* TripHub */,
+				3CB174E528AC21C00065EBCD /* TripHubTests */,
+				3CB174EF28AC21C00065EBCD /* TripHubUITests */,
+				3CB174D328AC21BE0065EBCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CB174D328AC21BE0065EBCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CB174D228AC21BE0065EBCD /* TripHub.app */,
+				3CB174E228AC21C00065EBCD /* TripHubTests.xctest */,
+				3CB174EC28AC21C00065EBCD /* TripHubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CB174D428AC21BE0065EBCD /* TripHub */ = {
+			isa = PBXGroup;
+			children = (
+				3CB174D528AC21BE0065EBCD /* TripHubApp.swift */,
+				3CB174D728AC21BE0065EBCD /* ContentView.swift */,
+				3CB174D928AC21C00065EBCD /* Assets.xcassets */,
+				3CB174DB28AC21C00065EBCD /* Preview Content */,
+			);
+			path = TripHub;
+			sourceTree = "<group>";
+		};
+		3CB174DB28AC21C00065EBCD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CB174DC28AC21C00065EBCD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CB174E528AC21C00065EBCD /* TripHubTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CB174E628AC21C00065EBCD /* TripHubTests.swift */,
+			);
+			path = TripHubTests;
+			sourceTree = "<group>";
+		};
+		3CB174EF28AC21C00065EBCD /* TripHubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CB174F028AC21C00065EBCD /* TripHubUITests.swift */,
+				3CB174F228AC21C00065EBCD /* TripHubUITestsLaunchTests.swift */,
+			);
+			path = TripHubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CB174D128AC21BE0065EBCD /* TripHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB174F628AC21C00065EBCD /* Build configuration list for PBXNativeTarget "TripHub" */;
+			buildPhases = (
+				3CB174CE28AC21BE0065EBCD /* Sources */,
+				3CB174CF28AC21BE0065EBCD /* Frameworks */,
+				3CB174D028AC21BE0065EBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripHub;
+			productName = TripHub;
+			productReference = 3CB174D228AC21BE0065EBCD /* TripHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CB174E128AC21C00065EBCD /* TripHubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB174F928AC21C00065EBCD /* Build configuration list for PBXNativeTarget "TripHubTests" */;
+			buildPhases = (
+				3CB174DE28AC21C00065EBCD /* Sources */,
+				3CB174DF28AC21C00065EBCD /* Frameworks */,
+				3CB174E028AC21C00065EBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CB174E428AC21C00065EBCD /* PBXTargetDependency */,
+			);
+			name = TripHubTests;
+			productName = TripHubTests;
+			productReference = 3CB174E228AC21C00065EBCD /* TripHubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CB174EB28AC21C00065EBCD /* TripHubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB174FC28AC21C00065EBCD /* Build configuration list for PBXNativeTarget "TripHubUITests" */;
+			buildPhases = (
+				3CB174E828AC21C00065EBCD /* Sources */,
+				3CB174E928AC21C00065EBCD /* Frameworks */,
+				3CB174EA28AC21C00065EBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CB174EE28AC21C00065EBCD /* PBXTargetDependency */,
+			);
+			name = TripHubUITests;
+			productName = TripHubUITests;
+			productReference = 3CB174EC28AC21C00065EBCD /* TripHubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CB174CA28AC21BE0065EBCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3CB174D128AC21BE0065EBCD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3CB174E128AC21C00065EBCD = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3CB174D128AC21BE0065EBCD;
+					};
+					3CB174EB28AC21C00065EBCD = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3CB174D128AC21BE0065EBCD;
+					};
+				};
+			};
+			buildConfigurationList = 3CB174CD28AC21BE0065EBCD /* Build configuration list for PBXProject "TripHub" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CB174C928AC21BE0065EBCD;
+			productRefGroup = 3CB174D328AC21BE0065EBCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CB174D128AC21BE0065EBCD /* TripHub */,
+				3CB174E128AC21C00065EBCD /* TripHubTests */,
+				3CB174EB28AC21C00065EBCD /* TripHubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CB174D028AC21BE0065EBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB174DD28AC21C00065EBCD /* Preview Assets.xcassets in Resources */,
+				3CB174DA28AC21C00065EBCD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB174E028AC21C00065EBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB174EA28AC21C00065EBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CB174CE28AC21BE0065EBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB174D828AC21BE0065EBCD /* ContentView.swift in Sources */,
+				3CB174D628AC21BE0065EBCD /* TripHubApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB174DE28AC21C00065EBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB174E728AC21C00065EBCD /* TripHubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB174E828AC21C00065EBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB174F128AC21C00065EBCD /* TripHubUITests.swift in Sources */,
+				3CB174F328AC21C00065EBCD /* TripHubUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CB174E428AC21C00065EBCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CB174D128AC21BE0065EBCD /* TripHub */;
+			targetProxy = 3CB174E328AC21C00065EBCD /* PBXContainerItemProxy */;
+		};
+		3CB174EE28AC21C00065EBCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CB174D128AC21BE0065EBCD /* TripHub */;
+			targetProxy = 3CB174ED28AC21C00065EBCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CB174F428AC21C00065EBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CB174F528AC21C00065EBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CB174F728AC21C00065EBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TripHub/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TripAdvising.TripHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CB174F828AC21C00065EBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TripHub/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TripAdvising.TripHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CB174FA28AC21C00065EBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TripAdvising.TripHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripHub.app/TripHub";
+			};
+			name = Debug;
+		};
+		3CB174FB28AC21C00065EBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TripAdvising.TripHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripHub.app/TripHub";
+			};
+			name = Release;
+		};
+		3CB174FD28AC21C00065EBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TripAdvising.TripHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TripHub;
+			};
+			name = Debug;
+		};
+		3CB174FE28AC21C00065EBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TripAdvising.TripHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TripHub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CB174CD28AC21BE0065EBCD /* Build configuration list for PBXProject "TripHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB174F428AC21C00065EBCD /* Debug */,
+				3CB174F528AC21C00065EBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB174F628AC21C00065EBCD /* Build configuration list for PBXNativeTarget "TripHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB174F728AC21C00065EBCD /* Debug */,
+				3CB174F828AC21C00065EBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB174F928AC21C00065EBCD /* Build configuration list for PBXNativeTarget "TripHubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB174FA28AC21C00065EBCD /* Debug */,
+				3CB174FB28AC21C00065EBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB174FC28AC21C00065EBCD /* Build configuration list for PBXNativeTarget "TripHubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB174FD28AC21C00065EBCD /* Debug */,
+				3CB174FE28AC21C00065EBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CB174CA28AC21BE0065EBCD /* Project object */;
+}
